@@ -1,8 +1,6 @@
 """Student assignment implementation file.
 
-Complete the TODOs in this file. The notebook `assignment.ipynb` can be used to
-experiment and run quick checks, but grading is performed on this script by
-GitHub Actions.
+Complete the TODOs in this file.
 """
 
 # --- Imports --- #
