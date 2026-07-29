@@ -14,8 +14,8 @@ This template is designed to create specific assignment templates for PH 306 usi
 ## Student workflow
 
 1. Open the assignment script or notebook.
-2. Commit and push.
-5. Review autograding results in CodeGrade.
+1. Commit and push.
+1. Review autograding results in CodeGrade.
 
 ## Devcontainer environment
 
