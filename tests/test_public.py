@@ -20,6 +20,6 @@ def test_problem2_value_and_error():
 
     assert isinstance(result, float), "result must be a float"
     assert isinstance(error, float), "error must be a float"
-    assert np.isclose(result, np.sqrt(np.pi), rtol=1e-5), (
+    assert np.isclose(result, np.sqrt(np.pi), rtol=1e-6), (
         f"result={result} is not close to sqrt(π)={np.sqrt(np.pi)}"
     )
