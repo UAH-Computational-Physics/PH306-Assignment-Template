@@ -1,27 +1,22 @@
 # PH306 Assignment Template (Notebook + Script Grading)
 
-This template is designed for GitHub Classroom using GitHub Actions grading.
+This template is designed to create specific assignment templates for PH 306 using [CodeGrade](https://www.codegrade.com/).
 
-- Students use `assignment.ipynb` as a guided notebook for local checks.
-- Students complete required functions in `assignment.py`.
-- GitHub Classroom grading is run on `assignment.py` via Actions.
+- The Python files `assignment.ipynb` & `assignment.py` serve as example CodeGrade assignments.
+- To create a new assignment, create a new repository based on this template then [setup that new repository as a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository).
 
 ## Files
 
-- `assignment.ipynb`: guided notebook with public checks
-- `assignment.py`: student implementation file (graded)
-- `tests/test_public.py`: visible tests used by Classroom autograder
-- `.github/workflows/autograde.yml`: Actions workflow that runs Classroom autograding
-- `.github/classroom/autograding.json`: points/commands for Classroom test items
+- `assignment.ipynb`: example notebook assignment
+- `assignment.py`: example script assignment
+- `tests/test_public.py`: visible tests used by CodeGrade autograder
 
 ## Student workflow
 
-1. Open `assignment.ipynb`.
-2. Implement functions in `assignment.py`.
-3. Re-run notebook checks.
-4. Commit and push.
-5. Review autograding results in GitHub.
+1. Open the assignment script or notebook.
+2. Commit and push.
+5. Review autograding results in CodeGrade.
 
 ## Devcontainer environment
 
-The provided `.devcontainer/devcontainer.json` uses a Miniconda image and updates the base environment with `mamba` from `environment.yml` (using `conda-forge`).
+The provided `.devcontainer/devcontainer.json` and `.devcontainer/Dockerfile` uses a Micromamba image and creates a new environment with `mamba` from `environment.yml` (using `conda-forge` and `astropy`). This is primarily used for students who prefer to develop in [GitHub Codespaces](https://github.com/features/codespaces).
