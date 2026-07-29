@@ -55,8 +55,10 @@ if __name__ == "__main__":
         print("Problem 1 passed all checks.")
     except AssertionError as e:
         print(f"Problem 1 failed: {e}")
+        raise
     except NotImplementedError as e:
         print(f"Problem 1 not yet implemented: {e}")
+        raise
 
     # Run checks for Problem 2
     try:
@@ -64,5 +66,7 @@ if __name__ == "__main__":
         print("Problem 2 passed all checks.")
     except AssertionError as e:
         print(f"Problem 2 failed: {e}")
+        raise
     except NotImplementedError as e:
         print(f"Problem 2 not yet implemented: {e}")
+        raise
