@@ -6,6 +6,9 @@ GitHub Actions.
 """
 
 # --- Imports --- #
+# Local Imports
+from util import assert_expr
+
 # Numerical Imports
 import numpy as np
 
@@ -31,20 +34,20 @@ def problem2_numerical_integration() -> tuple[float, float]:
 def problem1_check() -> None:
     """Check Problem 1 implementation."""
     x, y = problem1_array_operations()
-    assert isinstance(x, np.ndarray), "x is not a numpy array"
-    assert isinstance(y, np.ndarray), "y is not a numpy array"
-    assert x.shape == (100,), "x does not have shape (100,)"
-    assert y.shape == (100,), "y does not have shape (100,)"
-    assert np.allclose(y[0], 0), "y[0] is not close to 0"
-    assert np.allclose(y[100], 0), "y[100] is not close to 0"
+    assert_expr(isinstance(x, np.ndarray), "x is not a numpy array")
+    assert_expr(isinstance(y, np.ndarray), "y is not a numpy array")
+    assert_expr(x.shape == (100,), "x does not have shape (100,)")
+    assert_expr(y.shape == (100,), "y does not have shape (100,)")
+    assert_expr(np.allclose(y[0], 0), "y[0] is not close to 0")
+    assert_expr(np.allclose(y[100], 0), "y[100] is not close to 0")
 
 def problem2_check() -> None:
     """Check Problem 2 implementation."""
     result, error = problem2_numerical_integration()
-    assert isinstance(result, float), "result is not a float"
-    assert isinstance(error, float), "error is not a float"
-    assert np.isclose(result, np.sqrt(np.pi)), "result is not close to sqrt(pi)"
-    assert error < 1e-6, "error is not less than 1e-6"
+    assert_expr(isinstance(result, float), "result is not a float")
+    assert_expr(isinstance(error, float), "error is not a float")
+    assert_expr(np.isclose(result, np.sqrt(np.pi)), "result is not close to sqrt(pi)")
+    assert_expr(error < 1e-6, "error is not less than 1e-6")
 
 
 # --- Main --- #
