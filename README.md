@@ -21,3 +21,7 @@ This template is designed for GitHub Classroom using GitHub Actions grading.
 3. Re-run notebook checks.
 4. Commit and push.
 5. Review autograding results in GitHub.
+
+## Devcontainer environment
+
+The provided `.devcontainer/devcontainer.json` uses a Miniconda image and updates the base environment with `mamba` from `environment.yml` (using `conda-forge`).
