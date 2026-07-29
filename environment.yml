@@ -1,0 +1,8 @@
+name: ph306
+channels:
+  - conda-forge
+dependencies:
+  - numpy>=1.24
+  - scipy>=1.10
+  - pytest>=8.0
+  - ipython>=8.0
