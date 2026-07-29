@@ -1,4 +1,4 @@
-name: ph306
+name: base
 channels:
   - conda-forge
 dependencies:
