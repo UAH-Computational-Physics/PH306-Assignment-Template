@@ -3,7 +3,7 @@
 This template is designed to create specific assignment templates for PH 306 using [CodeGrade](https://www.codegrade.com/).
 
 - The Python files `assignment.ipynb` & `assignment.py` serve as example CodeGrade assignments.
-- To create a new assignment, create a new repository based on this template then [setup that new repository as a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository).
+- To create a new assignment, create a new repository based on this template then [set up that new repository as a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository).
 
 ## Files
 
