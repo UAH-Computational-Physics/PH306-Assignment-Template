@@ -1,8 +1,14 @@
-name: base
+name: ph306
 channels:
   - conda-forge
+  - astropy
 dependencies:
-  - numpy>=1.24
-  - scipy>=1.10
-  - pytest>=8.0
-  - ipython>=8.0
+  - python
+  - ipython
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - astropy
