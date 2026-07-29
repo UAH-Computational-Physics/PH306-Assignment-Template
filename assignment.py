@@ -34,7 +34,7 @@ def problem1_check() -> None:
     assert x.shape == (100,), "x does not have shape (100,)"
     assert y.shape == (100,), "y does not have shape (100,)"
     assert np.allclose(y[0], 0), "y[0] is not close to 0"
-    assert np.allclose(y[100], 0), "y[100] is not close to 0"
+    assert np.allclose(y[-1], 0), "y[-1] is not close to 0"
 
 def problem2_check() -> None:
     """Check Problem 2 implementation."""
