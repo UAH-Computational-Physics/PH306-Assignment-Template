@@ -12,3 +12,5 @@ dependencies:
   - pandas
   - scipy
   - astropy
+  - pytest
+  - flake8
