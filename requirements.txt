@@ -2,7 +2,11 @@ ipython
 jupyter
 jupyterlab
 matplotlib
-numpy
-pandas
-scipy
 astropy
+numpy
+scipy
+pandas
+pytest
+flake8
+mypy
+numpydoc
