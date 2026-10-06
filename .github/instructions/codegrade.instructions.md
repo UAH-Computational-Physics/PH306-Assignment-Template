@@ -27,7 +27,7 @@ The instructor's auto-graded CodeGrade rubric for students is divided into the f
 
 When creating a student-facing starter template, do not provide completed solutions to the assignment problems. Leave the problem-solving implementation for students (for example, use `raise NotImplementedError`), while keeping the starter code syntactically valid and including the required function names, signatures, and prompts.
 
-The rubric describes how student submissions are graded; it does not by itself specify which checks a starter template must pass. For this course, The starter is only required to pass the syntax check; don’t add rubric-scored features solely to make it pass the other checks.
+The rubric describes how student submissions are graded; it does not by itself specify which checks a starter template must pass. For this course, the starter is only required to pass the syntax check; don’t add rubric-scored features solely to make it pass the other checks.
 
 Type hints, complete NumPy-style docstrings, and other rubric-checked features must be omitted from the starter as they should be implemented by the students. Follow the assignment-specific instructions for these features; if they do not say, ask the instructor whether students are expected to add them.
 
