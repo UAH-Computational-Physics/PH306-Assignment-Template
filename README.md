@@ -9,7 +9,7 @@ This template is designed to create specific assignment templates for PH 306 usi
 
 - `assignment.ipynb`: example notebook assignment
 - `assignment.py`: example script assignment
-- `tests/test_public.py`: visible tests used by CodeGrade autograder
+- `test_public.py`: visible tests used by CodeGrade autograder
 
 ## Student workflow
 
