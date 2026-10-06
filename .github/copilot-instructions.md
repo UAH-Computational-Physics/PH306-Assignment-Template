@@ -6,6 +6,8 @@ This repository is a base template for PH 306 (Computational Physics) at [UAHunt
 
 This repository itself is not an assignment submission repository. The instructor copies this template to create a separate repository for each assignment, then adds assignment-specific instructions there.
 
+The base template intentionally includes both `assignment.py` and `assignment.ipynb` as examples. The one-primary-work-file requirement below applies to a generated assignment, not to this base template.
+
 The course uses Python. Students may complete assignments using either:
 - Python scripts
 - Jupyter notebooks
@@ -39,6 +41,8 @@ Required behavior:
 1. Replace prior assignment-facing files rather than incrementally patching them.
 2. Generate content from the instructor-provided assignment instructions.
 3. Ensure all required assignment files are present and internally consistent.
+4. Before replacing files, inspect the worktree and existing assignment content. Preserve uncommitted or instructor-provided changes; if regeneration would overwrite them, stop and ask before proceeding.
+5. If assignment requirements are missing or ambiguous, ask the instructor for clarification rather than inventing requirements.
 
 Scope boundaries for replacement:
 - Assignment-facing files may be replaced as part of regeneration (for example: assignment.ipynb, assignment.py, README.md, requirements.txt, environment.yml).
@@ -68,9 +72,10 @@ Environment specification rules:
 Validation before completion:
 - Confirm exactly one primary student work file is designated in README.md.
 - Confirm requirements.txt and environment.yml are both present after regeneration.
-- Run at least one lightweight sanity check appropriate to the generated workflow (for example, Python syntax check for script-based assignments).
+- Run the applicable supplied tests and grading checks, along with at least one lightweight workflow-specific sanity check (for example, a Python syntax check for script-based assignments).
 
-Autograder contract rules:
+Autograder rules:
+- Be aware of the reusable CodeGrade conventions in `.github/instructions/codegrade.instructions.md`.
 - Do not rename required functions, classes, or files that are referenced by tests or grading harnesses.
 - Keep function signatures stable unless the instructor instructions explicitly require changes.
 - Ensure README.md instructions, starter code names, and test expectations all use the same identifiers.
