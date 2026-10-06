@@ -9,7 +9,7 @@ The following is provided as background information regarding how these python f
 1. Prompts on setting up the assignment template (*e.g.*, setting up the framework for students).
 2. Prompts regarding the implementation of the solution.
 
-When setting up assignment template, be aware of the following background information regarding CodeGrade in that the students will be expected to complete these parts (meaning they should not be a part of the template).
+Students (not the generated template) must complete the rubric-scored elements.
 
 ## CodeGrade Rubric
 
