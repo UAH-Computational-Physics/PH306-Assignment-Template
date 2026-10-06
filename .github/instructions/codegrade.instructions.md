@@ -68,7 +68,7 @@ def root_radioactive_decay_time(N0, N_target, half_life):
     raise NotImplementedError
 ```
 
-Note that the actual number of problems may vary from assignment to assignment (there are seven problems from this example with the last four missing).
+Note that the actual number of problems may vary from assignment to assignment. Also note that this example is incomplete and that instructor generally has anywhere from 5-15 problems for the students to solve on an assignment.
 
 Likewise, the README should be updated when new problem templates are added. Here is an example of the matching README items for the problems above:
 
